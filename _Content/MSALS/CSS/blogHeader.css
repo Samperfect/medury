@@ -1,0 +1,303 @@
+.secondary-header {
+    background: url('../Images/blog-headerBg.png') no-repeat 0 0 transparent;
+    background-size: cover;
+    margin: 0px 0 1px 0 !important;
+}
+
+    .secondary-header #logo h1 {
+        margin-bottom: 0 !important;
+        font-size: 0px;
+    }
+
+.form-control:focus, .btn-secondary:focus, .btn-secondary:focus {
+    box-shadow: none;
+    border: 0;
+    background: transparent;
+}
+
+.secondary-header #logo img {
+    /*width: 180px;*/
+    margin-top: 10px;
+}
+
+.secondary-header .search {
+    padding: 15px 15px 0 0;
+    position: relative;
+    height: 78px;
+    text-align: right;
+    border-right: 1px solid #ccc;
+}
+
+.secondary-header #logo, .secondary-header #search {
+    /*border-right: 1px solid #ccc;*/
+}
+
+    .secondary-header #search .input-group {
+        width: 190px;
+        float: right;
+    }
+
+.secondary-header .search input {
+    background: url('../Images/searchBg.jpg') no-repeat 0 0 transparent;
+    width: 146px;
+    height: 28px;
+    padding: 5px 14px 5px 14px;
+    color: #857f82;
+    font-size: .875em;
+    border: 0;
+    border-radius: 0;
+}
+
+.errorInfo {
+    color: red;
+    font-size: .9375em;
+    display: none;
+}
+
+.secondary-header .search .input-group-append button {
+    border-radius: 0;
+    color: #0395a2 !important;
+    font-size: .875em;
+    background: url('../Images/btnGrayBg.png') repeat-x 0 0 transparent;
+    border: solid 1px #cdcdcd;
+    width: 32px;
+    height: 27px;
+    outline: none;
+    display: block;
+    text-shadow: none !important;
+    padding: 0
+}
+
+.secondary-header .search input:focus {
+    outline: 0
+}
+
+.secondary-header .search .txtsitemap {
+    display: block;
+    color: #595959;
+    text-decoration: underline;
+    font-size: 14px;
+    clear: both;
+    padding-top: 5px;
+}
+
+.secondary-header .signin {
+    width: 200px;
+    height: 78px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    width: 135px;
+}
+
+.secondary-header #signin {
+    text-align: center;
+}
+
+.secondary-header .signInie7 {
+    text-align: center;
+}
+
+.abtmolinacontent menu, ol, ul {
+    padding: 0 0 0 0px;
+}
+
+.secondary-header .click-nav .clicker {
+    border-radius: 0;
+    background: url('../Images/btnSignInBg.jpg') repeat-x scroll 0 1px #774c81;
+    color: #fff;
+    position: relative;
+    padding: 2px 8px 3px 12px;
+    text-align: left;
+    border: 1px solid #44204d;
+    width: 90px;
+    height: 32px;
+    font-size: 15px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.secondary-header .click-nav span {
+    float: left;
+    display: block;
+    background: url('../../../../blog.molinahealthcare.com/Style%20Library/Images/signinDNarrow.html') no-repeat right;
+    padding: 5px 16px 5px 0;
+    color: #fff;
+    font-size: 13px;
+    position: absolute;
+    right: 7px;
+    top: 7%;
+    text-indent: -9999px;
+}
+
+.secondary-header .click-nav .clicker:hover, .click-nav .active {
+    background: #ba87c6 url('../Images/btnSignInBgHover.jpg') repeat-x scroll 0 0;
+}
+
+.secondary-header .click-nav ul li a {
+    transition: background-color .2s ease-in-out;
+    -webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    display: block;
+    padding: 8px 10px 8px 10px;
+    background: #efdbf7;
+    color: #333;
+    text-decoration: none;
+}
+
+    .secondary-header .click-nav ul li a:hover {
+        background: white;
+    }
+
+.secondary-header .click-nav .dropdown-menu.show {
+    display: block;
+    padding: 0;
+    border: 1px solid #965da4;
+    border-radius: 0;
+    left: -31px !important;
+    top: -2px !important;
+    width: 180px;
+    font-size: 14px;
+    z-index:10000;
+}
+
+.secondary-header #signin .register {
+    color: #01909c;
+    text-decoration: none;
+}
+
+/***tablet**/
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+    .secondary-header #logo img {
+        width: 100%;
+    }
+}
+
+/**mobile**/
+@media only screen and (max-width : 767px) {
+    .secondary-header {
+        padding: 15px;
+        height: 105px;
+        position: relative
+    }
+
+        .secondary-header #logo, .secondary-header .search .txtsitemap {
+            display: none;
+        }
+
+        .secondary-header #search, .secondary-header #signin, .secondary-header .signin {
+            width: 100%;
+        }
+
+            .secondary-header #search .input-group {
+                width: 100%;
+                float: none;
+            }
+
+        .secondary-header #search {
+            position: relative;
+            border: 0;
+        }
+
+        .secondary-header #signin .dropdown-toggle::after {
+            display: none;
+        }
+
+        .secondary-header .signin {
+            display: block
+        }
+
+        .secondary-header .click-nav .clicker {
+            width: 100%;
+        }
+
+        .secondary-header .click-nav {
+            margin-right: 2%;
+        }
+
+        .secondary-header #signin .register, .secondary-header #signin .click-nav {
+            width: 49%;
+            float: left;
+        }
+
+        .secondary-header .click-nav .dropdown-menu.show {
+            left: 0 !important;
+            width: 100%;
+        }
+
+        .secondary-header .search input {
+            width: 87%;
+            background-size: cover;
+        }
+
+        .secondary-header .search {
+            padding: 15px 0 10px 0;
+            height: auto;
+            position: absolute;
+            width: 92%;
+            top: 29px;
+            border-right: unset;
+        }
+
+        .secondary-header .signin {
+            height: auto;
+        }
+
+        .secondary-header #signin .register {
+            display: block;
+            border: 1px solid #ccc;
+            padding: 3px;
+        }
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1026px;
+    }
+
+    .secondary-header #logo {
+        max-width: 21%;
+        flex: 0 0 21%;
+    }
+
+    .secondary-header #search {
+        max-width: 66%;
+        padding: unset;
+        flex: 0 0 68%;
+    }
+
+    .secondary-header #signin {
+        max-width: 11%;
+        flex: 0 0 11%;
+        padding-right: unset;
+    }
+}

@@ -1,0 +1,331 @@
+﻿/*18.websiteFeedback popup*/
+.websiteFeedback .modal-header {
+    background: url('../../Images/survey-h2-bg.jpg') repeat-x 0 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.FeedBackPopUpReCaptcha {
+    margin: 15px 15px 15px 15px;
+    margin-left: 140px;
+}
+
+
+    .websiteFeedback .modal-header h2 {
+        margin: 0;
+        padding: 20px 0 20px 14px;
+        color: #00909d;
+        font-size: 1.7em;
+    }
+
+    .websiteFeedback .modal-header .close {
+        background: url('../../Images/pop-up-controls.png') repeat scroll -95px -77px #cef3f7;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        height: 30px;
+        border: medium none;
+        opacity: 1;
+        font-size: 0;
+    }
+
+.websiteFeedback .modal-dialog {
+    width: 630px;
+    max-width: 630px;
+    font-family: Arial, sans-serif;
+}
+
+.websiteFeedback .modal-content {
+    width: 630px;
+    font-family: Arial, sans-serif;
+}
+
+.websiteFeedback .modal-body {
+    overflow: auto;
+    height: 410px;
+    overflow-x: hidden;
+}
+
+    .websiteFeedback .modal-body p {
+        font-size: 1em;
+    }
+
+    .websiteFeedback .modal-body h3 {
+        float: left;
+        background-image: url('../../Images/survey-h3-bg.jpg');
+        width: 100%;
+        margin: 0 0 5px;
+        padding: 10px;
+        color: #fff;
+        font-weight: normal;
+        font-size: 1.4em;
+    }
+
+    .websiteFeedback .modal-body .rate-this-page h3 {
+        margin: 15px 0 10px;
+    }
+
+    .websiteFeedback .modal-body h4 {
+        margin: -20px 0px 10px 15px;
+        color: #00909d;
+        font-size: 1.2em;
+    }
+
+    .websiteFeedback .modal-body .rate-this-page div {
+        display: inline-block;
+    }
+
+    .websiteFeedback .modal-body .asterik {
+        vertical-align: middle;
+        color: red;
+        font-size: 13px;
+        display: inline-block;
+    }
+
+    .websiteFeedback .modal-body .rate-this-page .form-check {
+        text-align: center;
+        padding: 0 3%;
+    }
+
+span.contactusfeedback {
+    color: #01909c;
+}
+
+    span.contactusfeedback:hover {
+        cursor: pointer;
+    }
+
+.websiteFeedback .modal-body .rate-this-page label {
+    text-align: center;
+    padding: 0 3%;
+}
+
+.websiteFeedback .modal-body .es-rate-this label {
+    padding: 0 2%;
+}
+
+.websiteFeedback .modal-body .rs-rate-this label {
+    padding: 0 1%;
+}
+
+.websiteFeedback .errortitlebar {
+    display: none;
+    font-size: 13px;
+    line-height: 20px;
+    position: relative;
+    color: red !important;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+.websiteFeedback .modal-body .rate-this-page img {
+    width: 50px;
+    vertical-align: bottom;
+}
+
+.websiteFeedback .modal-body .Information,
+.websiteFeedback .modal-body .Easeofuse,
+.websiteFeedback .modal-body .Satisfaction {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.websiteFeedback .modal-body .Easeofuse {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.websiteFeedback .modal-body .feedback-questions .formcontrol {
+    border: 0;
+    clear: both;
+}
+
+    .websiteFeedback .modal-body .feedback-questions .formcontrol label {
+        display: block;
+    }
+
+.websiteFeedback .modal-body .VisitReasonlist,
+.websiteFeedback .modal-body .IAmlist {
+    color: #333;
+    font-size: 14px;
+    padding: 4px 5px;
+    background: url('../../Images/title_bar_bg.gif');
+    border: 1px solid #ccc;
+    text-align: left;
+    border-radius: 0;
+    position: relative;
+    width: 300px;
+    margin: 0px 0px 15px 24px;
+}
+
+.websiteFeedback .modal-body .feedback-questions .formcontrol .reasnText {
+    margin: -30px 0px 0px 10px;
+    font-size: 16px;
+}
+
+.websiteFeedback .modal-body .feedback-questions .formcontrol .areYouText {
+    margin: -20px 0px 0px 13px;
+    font-size: 16px;
+}
+
+.websiteFeedback .modal-body .feedback-questions .formcontrol:after {
+    position: relative;
+    content: "";
+    top: 38px;
+    left: 288px;
+    width: 1px;
+    height: 27px;
+    background: #ccc;
+}
+
+.websiteFeedback .modal-body .feedback-questions h3 {
+    margin: 0 0 10px;
+}
+
+.websiteFeedback .modal-body .feedback-questions {
+    padding: 5px 0 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.websiteFeedback .modal-body .recaptcha-wrapper {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.websiteFeedback .modal-body .surveygoodimg {
+    background: url('../../Images/survey-good.png');
+    width: 50px;
+    vertical-align: middle;
+    height: 50px;
+}
+
+.websiteFeedback .modal-body .surveybadimg {
+    background: url('../../Images/survey-bad.png');
+    width: 50px;
+    vertical-align: middle;
+    height: 50px;
+}
+
+.websiteFeedback .modal-body .FeedbackPopupSubmit {
+    background-image: url('../../Images/btnGreenBg.png');
+    padding: 5px 16px 6px;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #067a91;
+    border: 1px solid #0292a0;
+    border-top: 1px solid #75d7e2;
+    border-left: 1px solid #75d7e2;
+    outline: 1px solid #ccc;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.websiteFeedback .modal-body .p a {
+    color: #01909c;
+}
+
+    .websiteFeedback .modal-body .p a:hover {
+        text-decoration: none;
+    }
+
+
+/**mobile**/
+@media screen and (max-width:767px) {
+    .websiteFeedback .modal-dialog {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .websiteFeedback .modal-header h2 {
+        font-size: 1.3em;
+    }
+
+    .websiteFeedback .modal-body h3 {
+        float: none;
+        font-size: 1em;
+    }
+
+    .websiteFeedback .modal-body h4 {
+        font-size: 1em;
+    }
+
+    .websiteFeedback .modal-body .feedback-questions .form-control {
+        padding: 0;
+    }
+
+    .websiteFeedback .modal-body .rate-this-page .form-check {
+        padding: 0 5px;
+    }
+
+    .websiteFeedback .modal-body .rate-this-page img {
+        width: 30px;
+    }
+
+    .websiteFeedback .modal-body select {
+        width: 100%;
+    }
+
+    .websiteFeedback .modal-body .feedback-questions .form-control:after {
+        left: 93%;
+    }
+
+    .websiteFeedback .modal-body .rate-this-page .form-check label {
+        font-size: 14px;
+    }
+
+    .websiteFeedback .modal-body .feedback-questions .form-control::after {
+        top: 32px
+    }
+
+    .websiteFeedback .modal-body .FeedbackPopupSubmit {
+        margin: 0px 0px 0px 127px;
+    }
+
+    .FeedBackPopUpReCaptcha {
+        margin: 15px 15px 15px 2px !important;
+    }
+
+    .modal.FeedbackPopUp.show {
+        width: 95%;
+        margin: 0px 0px 0px 11px;
+    }
+
+    .websiteFeedback .modal-body .rate-this-page h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .websiteFeedback .modal-body .rate-this-page div {
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .websiteFeedback .modal-body .feedback-questions .VisitReasonlist,
+    .websiteFeedback .modal-body .feedback-questions .IAmlist {
+        margin: 0px;
+    }
+
+    .websiteFeedback .modal-content {
+        width: 100%
+    }
+}
+
+
+/**mobile**/
+
+@media screen and (max-width:370px) {
+    .websiteFeedback .modal-body .rate-this-page .form-check {
+        padding: 0;
+    }
+
+    .websiteFeedback .modal-body .feedback-questions .form-control:nth-child(2):after {
+        top: 56px
+    }
+}
+
+
+

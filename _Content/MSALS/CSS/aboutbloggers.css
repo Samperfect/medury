@@ -1,0 +1,35 @@
+.BloggerDetails {
+    font-size: 14.0625px;
+    font-family: Arial,sans-serif;
+    color: #3d3d3d;
+    padding-right: 15px
+} 
+
+    .BloggerDetails .content p {
+        margin: 0 0 14px 0;
+        padding: 0;
+        line-height: 1.4;
+    }
+
+    .BloggerDetails img {
+        border: 0;
+    }
+
+    .BloggerDetails img:hover {
+            opacity: 0.8;
+    } 
+
+    .BloggerDetails h2, .BloggerDetails h3 {
+        margin: 7px 0;
+        line-height: 1.4;
+    }
+
+    .BloggerDetails h1, .BloggerDetails h2, .BloggerDetails h3, .BloggerDetails h4 {
+        font-size: 1.3em;
+        color: #3d3d3d;
+        font-weight: 700;
+    }
+
+    .BloggerDetails .content a {
+        color: #00909d;
+    }

@@ -1,0 +1,209 @@
+/*Email Popup*/
+.email-this-page {
+    padding-right: 190px !important;
+}
+
+    .email-this-page .modal-dialog {
+        /* width: 748px; */
+        color: #646464;
+        background: #fff;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+    }
+
+    .email-this-page .close {
+        background: url('../Images/controls.png') repeat scroll -95px -77px #f1f1f1;
+        /* border: medium none; */
+        height: 32px;
+        outline: 1px solid #ccc;
+        width: 32px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+        border: 1;
+    }
+
+    .email-this-page .modal-content {
+        border-radius: 0;
+        width: 748px;
+    }
+
+    .email-this-page .modal-dialog .modal-title {
+        background: url('../Images/email-icon.png') no-repeat;
+        padding-left: 37px;
+        min-height: 30px;
+        margin-top: 0;
+        margin-bottom: 5px;
+        line-height: 30px;
+        font-size: 16px;
+        position: relative;
+        height: 25px;
+        font-weight: bold;
+        width: 80%;
+    }
+
+span.asterisk {
+    color: red;
+}
+
+.email-this-page .modal-dialog .modal-header p {
+    margin-bottom: 10px;
+    padding-left: 37px;
+}
+
+.email-this-page .modal-dialog .modal-header h6 {
+    color: #00909d;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 13px;
+    padding-left: 37px;
+}
+
+.email-this-page .modal-dialog .modal-body {
+    padding-left: 37px;
+    /* margin-bottom: 60px; */
+}
+
+.email-this-page .modal-dialog .modal-header {
+    display: block;
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 0;
+}
+
+    .email-this-page .modal-dialog .modal-header .close {
+        opacity: 1;
+    }
+
+.modal-backdrop {
+    background-color: #182738;
+    opacity: 0.5 !important;
+}
+
+.email-this-page .modal-dialog .form-group label {
+    margin-bottom: 5px;
+    display: block;
+    float: left;
+    font-weight: bold;
+    font-size: 11.5px;
+    line-height: 15px;
+    width: 20%;
+}
+
+.email-this-page .modal-dialog .form-group {
+    clear: both;
+}
+
+    .email-this-page .modal-dialog .form-group .form-control {
+        background: url('../Images/bg-input-form001.png') repeat-x 0 0;
+        border-top: solid 1px #aaa;
+        border-left: solid 1px #aaa;
+        border-bottom: solid 1px #ccc;
+        border-right: solid 1px #ccc;
+        height: 28px;
+        padding: 5px 0 5px 0;
+        color: #3d3d3d;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .email-this-page .modal-dialog .form-group .form-control {
+        width: 75%;
+        float: left;
+        margin-bottom: 25px;
+    }
+
+    .email-this-page .modal-dialog .form-group input {
+        font-size: 13px;
+    }
+
+.email-this-page .urltxt {
+    width: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+    float: left;
+    font-size: 11.5px;
+    margin-left: 7px;
+}
+
+.email-this-page .url {
+    width: 555px;
+    float: left;
+}
+
+.email-this-page .modal-dialog input[type="submit"] {
+    background: url('../Images/btnGreenBg.jpg') repeat-x 0 0 #00a7ab;
+    padding: 5px 16px 6px;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #067a91;
+    border: 1px solid #0292a0;
+    border-top: 1px solid #75d7e2;
+    border-left: 1px solid #75d7e2;
+    outline: 1px solid #ccc;
+    width: 100px;
+    margin: 20px auto;
+    clear: both;
+    font-size: 13px;
+    border-radius: 0;
+    float: right;
+}
+
+.email-this-page .captcha-wrapper {
+    margin-left: 20%;
+    height: 60px;
+    -webkit-transform: scale(0.76);
+    transform-origin: 0 0;
+    margin-top: 18px;
+}
+
+.email-this-page .modal-dialog .urlcntrn {
+    display: inline-block;
+}
+
+
+/**mobile**/
+
+@media only screen and (max-width: 767px) {
+    .email-this-page .url {
+        width: 85%;
+        float: left;
+        word-break: break-all;
+    }
+
+    .email-this-page .modal-dialog .form-group .form-control {
+        width: 100%;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    .email-this-page .modal-dialog .form-group label {
+        width: 100%;
+    }
+
+    .email-this-page .urltxt {
+        margin-left: 0;
+    }
+
+    .email-this-page .captcha-wrapper {
+        margin-left: 0;
+    }
+
+    .email-this-page .modal-dialog .urlcntrn {
+        display: inline-block;
+        padding: 10px 0;
+    }
+
+    .email-this-page .modal-content {
+        width: auto;
+    }
+
+    .email-this-page {
+        padding-right: unset !important;
+    }
+}

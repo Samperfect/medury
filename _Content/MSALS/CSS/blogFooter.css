@@ -1,0 +1,356 @@
+/* Common Css for Public Website */
+/*Page Layout*/
+/*Body {
+    background: #c5ebed url('https://blog.molinahealthcare.com/Style%20Library/Images/gradientbodybg.jpg') repeat-x;
+}*/
+
+/*.mainContent {
+    margin: 4px 0 1px 0 !important;
+    padding-bottom: 1px;
+    color: #3d3d3d;
+}*/
+
+
+/* Footer */
+pageFooter {
+    margin-bottom: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    position: relative;
+    margin-top: 8px;
+    background-color: #FFFFFF;
+    margin-bottom:8px;
+}
+
+    footer h1 {
+        font-size: 16.4531px;
+        color: #3d3d3d;
+        font-weight: normal;
+        margin-bottom: 17px;
+    }
+   
+    footer a {
+        text-decoration: none;
+    }
+    footer h1 a:hover {
+        color: #3d3d3d;
+        text-decoration: none;
+    }
+    footer h1 a {
+        color: #3d3d3d;
+    }
+
+    footer h3 {
+        font-size: 16px;
+        color: #3d3d3d;
+        font-weight: normal;
+        margin-bottom: 17px;
+    }
+
+    footer a {
+        text-decoration: none;
+    }
+
+    footer h3 a {
+        color: #3d3d3d;
+        font-weight: normal !important;
+        text-decoration: none;
+        font-size: 16.45px;
+    } 
+
+        footer h3 a:hover {
+            color: #3d3d3d;
+            text-decoration: none !important;
+        }
+
+
+
+    footer li a {
+        font-size: 12.1922px;
+        color: #01909c ;
+        line-height: 16px;
+    }
+        footer li a span {
+            font-size: 12.1922px;
+            color: #01909c !important;
+            line-height: 16px;
+        }
+#social_popup_external .leave_popup_box {
+    display: none;
+}
+footer li a:hover {
+    color: #01909c;
+    text-decoration: underline;
+}
+
+    footer ul {
+        padding-left: 0;
+    }
+
+        footer ul li {
+            list-style: none;
+            padding: 5px 0 0 0;
+            line-height: 14px;
+        }
+
+
+footer .footer-copyrights {
+    font-size: 11.25px;
+    color: #9b9b9b;
+    padding: 0 20px 0px 20px;
+    margin-top:-15px;
+}
+
+        footer .footer-copyrights a {
+            color: #9b9b9b;
+            font-size: 11.25px;
+        }
+
+            footer .footer-copyrights a:hover {
+                color: #9b9b9b;
+                text-decoration: underline;
+            }
+
+        footer .footer-copyrights li {
+            padding: 0 30px 0 0;
+            display: inline-block;
+            position: relative
+        }
+
+    footer .footer-copyrights .last-updated {
+        padding: 0 20px 0 20px;
+    }
+
+.footer-social-icons {
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    width: 32px;
+}
+
+footer .footer-social-icons a {
+    float: left;
+    height: 32px;
+    width: 32px;
+    padding-bottom: 45px;
+    text-indent: -9999px;
+    background: url('../Images/blog-icon-sprite.png') repeat scroll 0 0 transparent;
+
+}
+
+footer .footer-social-icons a[title="Facebook"] {
+    background-position: -22px -287px;
+}
+
+footer .footer-social-icons a[title="Facebook"]:hover {
+    background-position: -64px -287px;
+}
+    footer .footer-social-icons a[title="Twitter"] {
+        background-position: -22px -333px;
+    }
+
+footer .footer-social-icons a[title="Twitter"]:hover {
+            background-position: -61px -333px;
+        }
+
+    footer .footer-social-icons a[title="Instagram"] {
+        background-position: -200px -287px;
+    }
+
+        footer .footer-social-icons a[title="Instagram"]:hover {
+            background-position: -242px -287px;
+        }
+
+
+    footer .footer-social-icons a[title="Youtube"] {
+        background-position: -113px -333px;
+    }
+
+
+        footer .footer-social-icons a[title="Youtube"]:hover {
+            background-position: -152px -333px;
+        }
+
+    footer .footer-social-icons a[title="GooglePlus"] {
+        background-position: -113px -287px;
+    }
+
+        footer .footer-social-icons a[title="GooglePlus"]:hover {
+            background-position: -155px -287px;
+        }
+
+
+
+footer .footer-social-icons a img {
+    height: 32px;
+    width: 32px;
+    margin-bottom: 15px;
+  
+}
+
+.pageFooter .nav .section h3 a {
+    font-size: 1em;
+    color: #3d3d3d;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.pagelayout h1 a {
+    font-size: 1em;
+    color: #3d3d3d;
+    text-decoration: none;
+    font-weight: normal;
+    /* color: #00909d; */
+}
+
+
+#siteLeavingAlert {
+    margin-top:100px;
+
+}
+    #siteLeavingAlert .modal-content {
+        padding: 10px;
+        border-radius: 0;
+        width: 540px;
+        margin: auto;
+    }
+
+    #siteLeavingAlert .modal-body {
+        border: 1px solid #ddd;
+      
+    }
+
+        #siteLeavingAlert .modal-body .alert_icon {
+            background: url('../Images/leave_alert.png') no-repeat left top;
+            height: 40px;
+            width: 40px;
+            display: block;
+            float: left;
+            margin-right: 10px;
+        }
+
+#siteLeavingAlert h3 {
+    font-size: 14px;
+    font-family: arial;
+    line-height: 25px;
+    margin: 0;
+    font-weight: bold;
+    color: #3d3d3d;
+}
+
+#siteLeavingAlert .confirmation-box {
+    float: right;
+    margin-top: 25px;
+}
+
+#siteLeavingAlert a {
+    background: url(btnGreenBg.html) repeat-x 0 0 #00a7ab;
+    padding: 5px 16px 6px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #067a91;
+    border: 1px solid #0292a0;
+    border-top: 1px solid #75d7e2;
+    border-left: 1px solid #75d7e2;
+    outline: 1px solid #ccc;
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+    #siteLeavingAlert a:hover{
+    text-decoration: none!important;
+    opacity: .8;
+}
+
+footer .mobile-footer-notes {
+    display: inline;
+}
+
+/**mobile view**/
+@media only screen and (max-width : 767px) {
+    footer .footer-copyrights {
+        padding: 0 15px;
+    }
+
+        footer .footer-copyrights li {
+            padding: 0;
+        }
+
+    footer .mobile-footer-notes {
+        display: block;
+    }
+
+    .footer-social-icons {
+        position: relative;
+        right: auto;
+        top: 0;
+        width: 100%;
+        margin: 15px;
+        border-bottom: 0.3px solid #9b9b9b;
+        padding: 5px 0;
+    }
+
+    footer a.social-icon-big {
+        padding: 0 39px 45px 0;
+    }
+
+    #siteLeavingAlert .modal-content {
+        width: auto;
+    }
+
+    #siteLeavingAlert h3 {
+        font-size: 13.5px;
+    }
+}
+
+footer .col-md-2 {
+    padding: 20px;
+}
+
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1026px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    footer .col-md-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 15.666667%;
+        max-width: 15.666667%;
+    }
+}
