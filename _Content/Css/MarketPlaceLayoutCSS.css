@@ -735,7 +735,7 @@ header.container {
 
     .globalToolbox .stateddlSelector select option:hover,
     .globalToolbox .languageSelector select option:hover {
-        background-color: #6cf;
+        background-color: #de1436;
     }
 
 .globalToolbox .pageWrapper {
@@ -1074,7 +1074,7 @@ img.fnone {
         }
 
         .dd .ddChild li.hover {
-            background-color: #6cf
+            background-color: #de1436
         }
 
         .dd .ddChild li img {
@@ -1096,7 +1096,7 @@ img.fnone {
             }
 
         .dd .ddChild li.selected {
-            background-color: #6cf;
+            background-color: #de1436;
             color: #000
         }
 
@@ -1304,7 +1304,7 @@ img.fnone {
 }
 
 .secondary-header #signin .register {
-    color: #01909c;
+    color: #de1436;
     text-decoration: none !important;
     font-size: 14.0625px;
 }
@@ -1369,12 +1369,12 @@ footer h3 a {
 
 footer li a {
     font-size: 14px;
-    color: #01909c;
+    color: #de1436;
     line-height: 16px;
 }
 
     footer li a:hover {
-        color: #01909c;
+        color: #de1436;
         text-decoration: underline;
     }
 
@@ -1850,7 +1850,7 @@ footer {
 
 #tx_notify_popup_div a {
     text-decoration: underline;
-    color: #01909c;
+    color: #de1436;
 }
 
 #coronaModal .modal-header {
@@ -1923,12 +1923,12 @@ nav.navbar.navbar-expand-md {
 .nav-item {
     /* background: url(/_Content/Images/navBg.jpg) repeat-x 0 0; */
     display: inline;
-    background-color: #009EA0 !important;
+    background-color: #de1436 !important;
     height: 57px;
     margin: 0;
     list-style-type: none;
-    border-right: 1px solid #68b6bc;
-    border-left: 1px solid #53a1a9;
+    border-right: 1px solid #de1436;
+    border-left: 1px solid #de1436;
     width: 17%;
     padding: 0;
 }
@@ -1977,13 +1977,13 @@ nav.navbar.navbar-expand-md {
 
 .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
-    background-color: #bdeff3;
+    background-color: #de14368a;
     margin: 0;
     font-weight: normal;
     text-align: left;
     text-shadow: none;
     border: 1px solid #777;
-    z-index: 2001;
+    z-index: 9000001;
     border-radius: 0;
     padding: 0;
     left: -10px;
@@ -2257,7 +2257,7 @@ nav.navbar.navbar-expand-md {
     }
 
     .navbar.navbar-expand-md.navbar-dark.fixed-top {
-        background: url(../Images/navBg.jpg) repeat-x 0 0;
+        background: #de1436 repeat-x 0 0;
         font-family: Arial, sans-serif;
         height: 52px;
     }
@@ -3307,7 +3307,7 @@ body.modal-open .mm-slideout {
     }
 
     .other-payment-wrap .pay-by-phone a {
-        color: #009EA0;
+        color: #de1436;
         text-decoration: underline;
         font-weight: bold;
     }
@@ -3336,7 +3336,7 @@ body.modal-open .mm-slideout {
     .other-payment-wrap p a {
         font-size: 14px;
         line-height: 24px;
-        color: #009EA0;
+        color: #de1436;
         text-decoration: underline;
         font-weight: bold;
     }
@@ -3553,7 +3553,7 @@ body.modal-open .mm-slideout {
 
     .MainContentRight .Shopping a img:hover,
     .Shopping a img:visited {
-        color: #01909c;
+        color: #de1436;
         float: left;
         background: none;
         margin: 0 10px 0 0;
@@ -4239,7 +4239,7 @@ body.modal-open .mm-slideout {
 .alertBox a,
 .alertBox a:link,
 .alertBox a:visited {
-    color: #009ea0 !important;
+    color: #de1436 !important;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -4523,7 +4523,7 @@ body.modal-open .mm-slideout {
 
 .StaticPageLayout .ImageWithText-content a:hover {
     text-decoration: underline;
-    color: #01909c;
+    color: #de1436;
 }
 
 .StaticPageLayout .ImageWithText-content ul li ul li {
@@ -4559,7 +4559,7 @@ body.modal-open .mm-slideout {
 }
 
 .StaticPageLayout .ImageWithText-content a {
-    color: #01909c;
+    color: #de1436;
 }
 
 .noTextDecoration {
@@ -4569,7 +4569,7 @@ body.modal-open .mm-slideout {
 StaticPageLayout .ImageWithText-content a:hover,
 .StaticPageLayout .ImageWithText-content a:visited {
     text-decoration: underline;
-    color: #01909c;
+    color: #de1436;
     cursor: pointer;
 }
 
@@ -6860,7 +6860,7 @@ p.ms-rteElement-Copy-sc {
     }
 
     .cookieConsentContainer .cookieButton a:hover {
-        background: #01909c;
+        background: #de1436;
     }
 
 
@@ -6970,7 +6970,7 @@ p.ms-rteElement-Copy-sc {
     }
 
 span.contactusfeedback {
-    color: #01909c;
+    color: #de1436;
 }
 
     span.contactusfeedback:hover {
@@ -7104,7 +7104,7 @@ span.contactusfeedback {
 }
 
 .websiteFeedback .modal-body .p a {
-    color: #01909c;
+    color: #de1436;
 }
 
     .websiteFeedback .modal-body .p a:hover {
@@ -7283,7 +7283,7 @@ span.contactusfeedback {
             font-family: Arial, sans-serif;
             font-weight: bold;
             position: relative;
-            background-color: #009EA0;
+            background-color: #de1436;
         }
 
         .FullImageBanner #sidebar ul {
@@ -7983,7 +7983,7 @@ GetActive {
     height: 152px;
     margin-bottom: 1px;
     /* background-color: transparent !important; */
-    background-color: #009EA0 !important;
+    background-color: #de1436 !important;
 }
 
     .helpbox h3 {
@@ -8124,7 +8124,7 @@ strong {
 }
 
 .infopage A:link {
-    color: #009ea0;
+    color: #de1436;
 }
 
 .infopage DIV.line {
@@ -9348,7 +9348,7 @@ strong {
         PADDING-RIGHT: 10px;
         BACKGROUND: none transparent scroll repeat 0% 0%;
         HEIGHT: 36px;
-        color: #01909c;
+        color: #de1436;
         MARGIN: 0 auto;
         BORDER-TOP: #00a0af 2px solid;
         BORDER-RIGHT: #00a0af 2px solid;
@@ -10019,7 +10019,7 @@ strong {
         font-weight: bold;
         background-size: cover;
         line-height: 21px;
-        background-color: #009EA0;
+        background-color: #de1436;
     }
 
     .nav-side-menu ul,
@@ -12881,7 +12881,7 @@ div#healthcare-professionals-popupModal {
 
         .MainContentRight .Shopping a img:hover,
         .Shopping a img:visited {
-            color: #01909c;
+            color: #de1436;
             float: left;
             background: none;
             margin: 0 10px 0 0;
@@ -14320,7 +14320,7 @@ p.ms-rteElement-Copy-19pxNY {
         display: block;
         width: 3px;
         height: 13px;
-        background: #01909c;
+        background: #de1436;
         position: absolute;
         right: 5px;
         top: 0;
@@ -14331,7 +14331,7 @@ p.ms-rteElement-Copy-19pxNY {
         display: block;
         width: 13px;
         height: 3px;
-        background: #01909c;
+        background: #de1436;
         right: 0;
         top: 5px
     }
@@ -14356,11 +14356,11 @@ p.ms-rteElement-Copy-19pxNY {
         }
 
     .home-accordion .bluetext {
-        color: #01909c
+        color: #de1436
     }
 
     .home-accordion a {
-        color: #01909c !important;
+        color: #de1436 !important;
     }
 
     .home-accordion .card-header button {
@@ -16093,7 +16093,7 @@ table.tablenopadding.word-break td {
 }
 
 #covidAlert a {
-    color: #01909c;
+    color: #de1436;
     text-decoration: underline;
 }
 
