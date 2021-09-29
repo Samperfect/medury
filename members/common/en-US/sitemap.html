@@ -36,6 +36,193 @@
     <script src="../../../_Content/Js/ProviderMainJS.js"></script>
 
     <!-- <script src="../../../../www.google.com/recaptcha/api.js"></script> -->
+
+    <!-- The below scripts should be added into the head element -->
+    <script type="text/javascript" id="User1st_Loader">
+      var _u1stSettings = {
+        /*Add the settings if relevant*/
+      };
+      var isActive = /u1stIsActive=1/.test(document.cookie);
+      var script = document.createElement('script');
+      script.id = 'User1st_Loader';
+      script.src = 'https://fecdn.user1st.info/Loader/head';
+      !isActive && (script.async = 'true');
+      var documentPosition = document.head || document.documentElement;
+      documentPosition.insertAdjacentElement('afterbegin', script);
+    </script>
+
+    <script>
+      (window.BOOMR_mq = window.BOOMR_mq || []).push([
+        'addVar',
+        {
+          'rua.upush': 'false',
+          'rua.cpush': 'true',
+          'rua.upre': 'false',
+          'rua.cpre': 'true',
+          'rua.uprl': 'false',
+          'rua.cprl': 'false',
+          'rua.cprf': 'false',
+          'rua.trans': 'SJ-0c2f9c2a-3539-4ded-94e0-5b00bbfc5cc2',
+          'rua.cook': 'false',
+          'rua.ims': 'false',
+          'rua.ufprl': 'false',
+          'rua.cfprl': 'false',
+          'rua.isuxp': 'false',
+          'rua.texp': 'norulematch',
+        },
+      ]);
+    </script>
+    <script>
+      !(function (a) {
+        var e = 'https://s.go-mpulse.net/boomerang/',
+          t = 'addEventListener';
+        if ('False' == 'True')
+          (a.BOOMR_config = a.BOOMR_config || {}),
+            (a.BOOMR_config.PageParams = a.BOOMR_config.PageParams || {}),
+            (a.BOOMR_config.PageParams.pci = !0),
+            (e = 'https://s2.go-mpulse.net/boomerang/');
+        if (
+          ((window.BOOMR_API_key = 'AXBTP-Q5PKW-VZ6R7-KBPHB-A6DW4'),
+          (function () {
+            function n(e) {
+              a.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+            }
+            if (!a.BOOMR || (!a.BOOMR.version && !a.BOOMR.snippetExecuted)) {
+              (a.BOOMR = a.BOOMR || {}), (a.BOOMR.snippetExecuted = !0);
+              var i,
+                _,
+                o,
+                r = document.createElement('iframe');
+              if (a[t]) a[t]('load', n, !1);
+              else if (a.attachEvent) a.attachEvent('onload', n);
+              (r.src = 'javascript:void(0)'),
+                (r.title = ''),
+                (r.role = 'presentation'),
+                ((r.frameElement || r).style.cssText =
+                  'width:0;height:0;border:0;display:none;'),
+                (o = document.getElementsByTagName('script')[0]),
+                o.parentNode.insertBefore(r, o);
+              try {
+                _ = r.contentWindow.document;
+              } catch (O) {
+                (i = document.domain),
+                  (r.src =
+                    "javascript:var d=document.open();d.domain='" +
+                    i +
+                    "';void(0);"),
+                  (_ = r.contentWindow.document);
+              }
+              (_.open()._l = function () {
+                var a = this.createElement('script');
+                if (i) this.domain = i;
+                (a.id = 'boomr-if-as'),
+                  (a.src = e + 'AXBTP-Q5PKW-VZ6R7-KBPHB-A6DW4'),
+                  (BOOMR_lstart = new Date().getTime()),
+                  this.body.appendChild(a);
+              }),
+                _.write('<bo' + 'dy onload="document._l();">'),
+                _.close();
+            }
+          })(),
+          ''.length > 0)
+        )
+          if (
+            a &&
+            'performance' in a &&
+            a.performance &&
+            'function' == typeof a.performance.setResourceTimingBufferSize
+          )
+            a.performance.setResourceTimingBufferSize();
+        !(function () {
+          if (
+            ((BOOMR = a.BOOMR || {}),
+            (BOOMR.plugins = BOOMR.plugins || {}),
+            !BOOMR.plugins.AK)
+          ) {
+            var e = 'true' == 'true' ? 1 : 0,
+              t = '',
+              n = 'ychiagaximydcyknsyva-f-604f0ae1e-clientnsv4-s.akamaihd.net',
+              i = 'false' == 'true' ? 2 : 1,
+              _ = {
+                'ak.v': '32',
+                'ak.cp': '491021',
+                'ak.ai': parseInt('317889', 10),
+                'ak.ol': '0',
+                'ak.cr': 1,
+                'ak.ipv': 4,
+                'ak.proto': 'http/1.1',
+                'ak.rid': '2f07b684',
+                'ak.r': 34413,
+                'ak.a2': e,
+                'ak.m': 'ksd',
+                'ak.n': 'essl',
+                'ak.bpcip': '192.142.128.0',
+                'ak.cport': 48208,
+                'ak.gh': '23.67.48.45',
+                'ak.quicv': '',
+                'ak.tlsv': 'tls1.2',
+                'ak.0rtt': '',
+                'ak.csrc': '-',
+                'ak.acc': 'bbr',
+                'ak.t': '1632474666',
+                'ak.ak':
+                  'hOBiQwZUYzCg5VSAfCLimQ==xVVpJawCRU/JuZk6/XdwM7jx1z5+VdSEjEwCdfK/d+ypL0Hn6BJAG2efRmIxq469uhEmhg2tSdt8MOnawkjv3w2SRAc0BLiJtiJoE7vieMHWpXMSi3tqnBrol+077KIUfW0JFXvJVue3UA5NtFCEJcHtsq/M+8wszrl1hJc4rTAfxVF9h/iGv4GIqET4NZdbt+UV4G5eu/mPmfmE1+K698upoG4jc3UCiSxkuJi4fSInFSd6+zQQzrliciN4Aq6HvgVmNDjBJLUkZ6/Hgz4hHNfKhb9bjcW5VqayvJ4BztaQicxDPGe8dOQeQtOUGGVKKvbJzQ7CpxK0n7iJdKqaO3F1Rp0oEDpAhtIQYpE3/dW7Y98/pPVCcMHP113NYk65DIi7NZcY43D9DirQyf34zeGyhWJN/yg2mMcgqtiFw+U=',
+                'ak.pv': '174',
+                'ak.dpoabenc': '',
+                'ak.tf': i,
+              };
+            if ('' !== t) _['ak.ruds'] = t;
+            var o = {
+              i: !1,
+              av: function (e) {
+                var t = 'http.initiator';
+                if (e && (!e[t] || 'spa_hard' === e[t]))
+                  (_['ak.feo'] = void 0 !== a.aFeoApplied ? 1 : 0),
+                    BOOMR.addVar(_);
+              },
+              rv: function () {
+                var a = [
+                  'ak.bpcip',
+                  'ak.cport',
+                  'ak.cr',
+                  'ak.csrc',
+                  'ak.gh',
+                  'ak.ipv',
+                  'ak.html',
+                  'ak.n',
+                  'ak.ol',
+                  'ak.proto',
+                  'ak.quicv',
+                  'ak.tlsv',
+                  'ak.0rtt',
+                  'ak.r',
+                  'ak.acc',
+                  'ak-2.html',
+                  'ak.tf',
+                ];
+                BOOMR.removeVar(a);
+              },
+            };
+            BOOMR.plugins.AK = {
+              akVars: _,
+              akDNSPreFetchDomain: n,
+              init: function () {
+                if (!o.i) {
+                  var a = BOOMR.subscribe;
+                  a('before_beacon', o.av, null, null),
+                    a('onbeacon', o.rv, null, null),
+                    (o.i = !0);
+                }
+                return this;
+              },
+              is_complete: function () {
+                return !0;
+              },
+            };
+          }
+        })();
+      })(window);
+    </script>
   </head>
 
   <body>
@@ -66,7 +253,19 @@
         style="display: none; visibility: hidden"
       ></iframe>
     </noscript>
-   
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+          '../../../../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-K8QBPF');
+    </script>
     <!-- End Google Tag Manager -->
     <div class="pagelayout">
       <header class="container">
@@ -165,7 +364,58 @@
           />
           <input type="hidden" id="selLangCodeHdn" value="en-us" />
           <input type="hidden" id="stateChanged" value="true" />
-         
+          <script>
+            //function OnMembersStateSelectEvent(selectedState) {
+            //    var currentUrl = window.location.href;
+            //    var selStateCodeHdn = document.getElementById("selStateCodeHdn").value;
+            //    var selectedLanguage = document.getElementById("dd-language").value;
+            //    var regEx = new RegExp("/" + selStateCodeHdn + "/", "ig");
+            //    var updatedUrl = currentUrl.replace(regEx, "/" + selectedState + "/");
+            //    if (selectedState == "os") {
+            //        window.location.href = window.location.protocol + "//" + window.location.hostname + "/" + selectedLanguage + "/pages/home.aspx";
+            //    }
+            //    else if (selectedState == "pr") {
+            //        var protocol = ["https:" === window.location.protocol ? "https://" : "http://"];
+            //        var vitalHostName = [$(location).attr('hostname') === "www.molinahealthcare.com" ? "www.molinavital.com" : $(location).attr('hostname') + "/molinavital/"];
+            //        var lang = [selectedLanguage === null ? "" : selectedLanguage.split("-")[0]];
+            //        lang = [lang === "" || lang === null ? "en" : lang];
+            //        window.location.href = protocol + vitalHostName + selectedLanguage.split("-")[0] + "/pages/home.aspx";
+
+            //    }
+            //    else if (updatedUrl.indexOf("/" + selectedState + "/") != -1 && updatedUrl.indexOf("/members/common") == -1) {
+            //        window.location.href = updatedUrl.split("/" + selectedState + "/")[0] + "/" + selectedState + "/" + selectedLanguage + "/pages/home.aspx";
+            //        Console.log("alert");
+            //        stateSwitchPopup();
+            //    }
+            //    else {
+            //        window.location.href = window.location.protocol + "//" + window.location.hostname + "/members/" + selectedState + "/" + selectedLanguage + "/pages/home.aspx";
+            //        Console.log("test");
+            //        stateSwitchPopup();
+            //    }
+            //    stateSwitchPopup();
+
+            //}
+
+            //function OnMembersLanguageSelectEvent(selectedLanguage) {
+            //    var currentUrl = window.location.href;
+            //    var selLanguageId = document.getElementById("selLangCodeHdn").value;
+            //    var regEx = new RegExp("/" + selLanguageId + "/", "ig");
+            //    window.location.href = currentUrl.replace(regEx, "/" + selectedLanguage + "/");
+            //}
+
+            //function stateSwitchPopup() {
+            //    alert("fadepopup");
+            //    setTimeout(function () {
+            //        $(".FadeAwayPopup").fadeOut("slow");
+            //    }, 5000);
+            //    $('.FadeAwayPopup  .canceltxt').on('click', function () {
+            //        window.history.go(-1);
+            //    });
+            //    $('.FadeAwayPopup  .cancelbtn').on('click', function () {
+            //        $('.FadeAwayPopup').fadeOut("slow");
+            //    });
+            //}
+          </script>
 
           <div class="container secondary-header rus">
             <div class="row">
@@ -287,7 +537,224 @@
             </div>
           </div>
 
-         
+          <script>
+            stateLanguageMapping = {
+              az: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              ca: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+                {
+                  text: 'Pусский',
+                  value: 'ru-US',
+                },
+                {
+                  text: 'Tiếng Việt',
+                  value: 'vi-US',
+                },
+                {
+                  text: '中文',
+                  value: 'zh-US',
+                },
+                {
+                  text: 'Hmoob',
+                  value: 'hm-US',
+                },
+                {
+                  text: 'العربية',
+                  value: 'ar-US',
+                },
+              ],
+              fl: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              id: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              il: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              ky: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              mi: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              ms: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              nm: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              ny: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+                {
+                  text: '中文',
+                  value: 'zh-US',
+                },
+                {
+                  text: 'Pусский',
+                  value: 'ru-US',
+                },
+                {
+                  text: 'Français',
+                  value: 'fr-US',
+                },
+                {
+                  text: 'italiano',
+                  value: 'it-US',
+                },
+              ],
+              oh: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              sc: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              tx: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              ut: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              va: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              wa: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+              wi: [
+                {
+                  text: 'English',
+                  value: 'en-US',
+                },
+                {
+                  text: 'Español',
+                  value: 'es-US',
+                },
+              ],
+            };
+            showPlanPopUp = false;
+            //showPlanPopUp = true;
+            stateOrPlanRedirectURl =
+              '../../../api/Sitecore/PWS/RedirectOtherState.html';
+            stateOrPlanRedirectURl = stateOrPlanRedirectURl.replace(
+              'pws.gslb.',
+              ''
+            );
+          </script>
 
           <div class="modal" id="state-select-modal" data-backdrop="static">
             <div class="modal-dialog modal-dialog-centered">
@@ -710,7 +1177,7 @@
             </div>
           </div>
 
-      
+          <!-- <script src="../../../../www.google.com/recaptcha/api2326.js?hl=en&amp;render=6Ld70GYUAAAAAJnA3yA4aJbWhqSUMF8k_dT342hD"></script> -->
           <div
             id="captcha-container"
             data-sitekey="6Ld70GYUAAAAAJnA3yA4aJbWhqSUMF8k_dT342hD"
@@ -721,7 +1188,17 @@
               name="g-recaptcha-response"
             />
           </div>
-       
+          <script>
+            grecaptcha.ready(function () {
+              grecaptcha
+                .execute('6Ld70GYUAAAAAJnA3yA4aJbWhqSUMF8k_dT342hD', {
+                  action: 'submit',
+                })
+                .then(function (token) {
+                  $('.g-recaptcha-response').val(token);
+                });
+            });
+          </script>
         </div>
       </div>
 
@@ -1573,7 +2050,20 @@
                 </div>
               </div>
             </div>
-       
+            <script type="text/javascript">
+              (function ($) {
+                var $formEl = $(
+                  "form[data-sc-fxb='31fec8a8-6796-4973-ad94-b4f071394041']"
+                );
+                if (
+                  $formEl.length &&
+                  typeof $formEl.init_fxbConditions === 'function'
+                ) {
+                  var options = {};
+                  $formEl.init_fxbConditions(options);
+                }
+              })(jQuery);
+            </script>
           </form>
         </div>
       </footer>
